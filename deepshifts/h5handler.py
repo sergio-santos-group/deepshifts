@@ -126,18 +126,10 @@ class H5Handler(object):
 
 if __name__ == "__main__":
     
-    # from pyanitools import anidataloader
     import sys
 
-    # dl = anidataloader(sys.argv[1])
-
-    # for group in dl:
-    #     print(group['path'], group['species'], group['smiles'])
 
     with H5Handler(sys.argv[1]) as dl:
-        # for k in dl:
-        #     print(k)
-        #print(len(dl))
         groups = dl.count_groups(sys.argv[2])
         #print(groups)
         print('total number of conformations =', sum(groups.values()))
