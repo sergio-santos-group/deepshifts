@@ -7,7 +7,7 @@
 
 ## Some preliminary results: DFT *vs* Deepshifts 1H shieldings 
 
-## Single molecules
+### Single molecules
 
 ![single molecule 1](resources/single1.png)
 
@@ -15,6 +15,6 @@
 
 ![single molecule 3](resources/single3.png)
 
-## water cluster
+### water cluster
 
 ![water cluster 1](resources/cluster1.png)
